@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "teste@gmail.com",
+      "password": "123",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1OTYwNTg1NTAyMCIsIm5hbWUiOiJKZWFuIENhcmxvcyBMb25kZXJvIiwiYXZhdGFyIjoiaHR0cHM6Ly9pLnByYXZhdGFyLmNjLzMwMCIsImp0aSI6IjlhZDAxMTYzLWQxMGMtNDMwYi1hNzFiLWZmZGVmMWRmY2QwZiIsImlhdCI6MTYxNDk5NjI4NCwiZXhwIjoxNjE0OTk5OTU1fQ.Lu31SfdXVmLV_z5eSAjUR4o5MRlcwBASQ5u1KFp--z8"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "name": "Empreendedorismo",
+      "subMenus": [
+        {
+          "id": 11,
+          "name": "Nota 01"
+        },
+        {
+          "id": 12,
+          "name": "Nota 02"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Oficina",
+      "subMenus": [
+        {
+          "id": 22,
+          "name": "Nota 01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Algebra Linear",
+      "subMenus": [
+        {
+          "id": 33,
+          "name": "Nota 01"
+        },
+        {
+          "id": 34,
+          "name": "Nota 02"
+        },
+        {
+          "id": 35,
+          "name": "Nota 03"
+        }
+      ]
+    }
+  ],
+
+
+
+  "taskboard": [
+    {
+      "id": 11,
+      "subMenuItems": [
+        {
+          "id": "1",
+          "name": "Joao Bosco",
+          "subject": "Preciso que formate o meu computador!",
+          "owner": "JB",
+          "users": ["JB", "MJ", "LH"],
+          "date": "2021-03-07T15:54:49-03:00"
+        },
+        {
+          "id": "2",
+          "name": "Melissa Jackson",
+          "subject": "Solicito minhas férias para janeiro.",
+          "owner": "MJ",
+          "users": ["MJ"],
+          "date": "2021-03-05T15:54:49-03:00"
+        },
+        {
+          "id": "3",
+          "name": "Lucas Henrique",
+          "subject": "Preciso de mais dois desenvolvedores BACKEND GO.",
+          "owner": "LH",
+          "users": ["LH", "JR", "MJ", "JB"],
+          "date": "2021-03-03T15:54:49-03:00"
+        },
+        {
+          "id": "4",
+          "name": "Juliano Ribeiro",
+          "subject": "Lembrete sua CNH venceu.",
+          "owner": "JR",
+          "users": ["JR", "LH"],
+          "date": "2021-03-01T15:54:49-03:00"
+        },
+        {
+          "id": "5",
+          "name": "Ian Chaves",
+          "subject": "Aviso",
+          "owner": "IC",
+          "users": ["FD"],
+          "date": "2021-02-07T15:54:49-03:00"
+        },
+        {
+          "id": "6",
+          "name": "Filipe Damião",
+          "subject": "Retornar para o cliente big boss referente a reclamação",
+          "owner": "FD",
+          "users": ["FD", "JB"],
+          "date": "2021-01-01T15:54:49-03:00"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "subMenuItems": [
+        {
+          "id": "7",
+          "name": "Billie Jean",
+          "subject": "Alarme esta disparando toda noite arrumar.",
+          "owner": "BJ",
+          "users": ["BJ", "JR"],
+          "date": "2021-03-07T10:54:49-03:00"
+        },
+        {
+          "id": "8",
+          "name": "Vitor Culture",
+          "subject": "Tratar falta de João Bosco 25-10-2020",
+          "owner": "VC",
+          "users": ["BJ"],
+          "date": "2021-01-03T15:20:49-03:00"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "subMenuItems": [
+        {
+          "id": "9",
+          "name": "Tony Skark",
+          "subject": "Solicito um sistema de BI para analisar as metricas da empresa.",
+          "owner": "TS",
+          "users": ["MJ", "BJ", "JR", "JB"],
+          "date": "2021-03-07T20:51:49-03:00"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      " subMenuItems": []
+    },
+    {
+      "id": 34,
+      "subMenuItems": [
+        {
+          "id": "10",
+          "name": "Rock Armando",
+          "subject": "Contrato de um milhão de dolares para ser aprovado.",
+          "owner": "RA",
+          "users": ["MJ", "BJ", "JR", "JB"],
+          "date": "2021-03-07T10:23:49-03:00"
+        },
+        {
+          "id": "11",
+          "name": "Antonio Gomes",
+          "subject": "O estoque de EPI tem que ser renovado para 2021.",
+          "owner": "AG",
+          "users": ["MJ", "BJ", "JR", "JB"],
+          "date": "2021-03-03T15:54:49-03:00"
+        },
+        {
+          "id": "12",
+          "name": "Renilda Borges",
+          "subject": "Solicito aumento para todos os funcionários de 3%.",
+          "owner": "RB",
+          "users": ["MJ", "BJ", "JR", "JB"],
+          "date": "2021-01-20T15:54:49-03:00"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "subMenuItems": []
+    }
+  ]
+}
